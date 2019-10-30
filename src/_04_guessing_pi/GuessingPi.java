@@ -27,7 +27,7 @@ System.out.print(pi.charAt(0)+""+pi.charAt(1)+""+pi.charAt(2)+"");
 for (int i = 0; i < pi.length(); i++) {
 	String ans=JOptionPane.showInputDialog("What is the next digit of pi?");
 
-if (ans.equals(pi.charAt(i)+"")) {
+if (ans.equals(pi.charAt(i+3)+"")) {
 	
 	System.out.println("correctomundo");
 } else {
